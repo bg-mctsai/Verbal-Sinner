@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>罪語者</title>
+    <title>Web Game</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="game-container">
-        <div id="background-layer"></div>
-        <div id="vignette-layer"></div>
-        <div id="dialogue-box">
-            <p id="speaker"></p>
-            <p id="dialogue-text"></p>
-        </div>
-        <div id="choice-box">
-            <button id="start-button" style="display: none;">開始遊戲</button>
-            <button id="refuse-button" style="display: none;" disabled>我拒絕</button>
-        </div>
+    <div id="background-layer"></div>
+    <div id="dialogue-box">
+        <span id="speaker"></span>
+        <p id="dialogue-text"></p>
     </div>
+    <button id="start-button" style="display: none;">進入書中世界</button>
+    <button id="refuse-button" style="display: none;" disabled>我拒絕</button>
+
     <script src="js/main.js"></script>
 </body>
 </html>
